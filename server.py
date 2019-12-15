@@ -9,7 +9,7 @@ def error404(err):
     return render_template("404.html"), 404
 
 @app.route("/")
-def index():
+def hech():
     return render_template("404-hotel.html")
 
 @app.route("/kod")

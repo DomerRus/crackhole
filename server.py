@@ -16,7 +16,7 @@ def hech():
 def index():
     return render_template("index.html")
 @app.route("/kod2")
-def index2():
-    return render_template("#2.html")
+def kod2():
+    return render_template("kod2.html")
 
 app.run(host='0.0.0.0', port=80, debug=True)
